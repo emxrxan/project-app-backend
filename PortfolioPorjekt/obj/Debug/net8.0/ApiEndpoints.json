@@ -1,0 +1,95 @@
+[
+  {
+    "ContainingType": "PortfolioPorjekt.Controllers.HaushaltRechnerController",
+    "Method": "GellAll",
+    "RelativePath": "api/HaushaltRechner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PortfolioPorjekt.Resources.HaushaltRechnerResource, PortfolioPorjekt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioPorjekt.Controllers.HaushaltRechnerController",
+    "Method": "Create",
+    "RelativePath": "api/HaushaltRechner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "neuHaushaltRechner",
+        "Type": "PortfolioPorjekt.Resources.HaushaltRechnerResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioPorjekt.Resources.HaushaltRechnerResource",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioPorjekt.Controllers.HaushaltRechnerController",
+    "Method": "Update",
+    "RelativePath": "api/HaushaltRechner/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateHaushaltRechner",
+        "Type": "PortfolioPorjekt.Resources.HaushaltRechnerResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PortfolioPorjekt.Resources.HaushaltRechnerResource",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "PortfolioPorjekt.Controllers.HaushaltRechnerController",
+    "Method": "Delete",
+    "RelativePath": "api/HaushaltRechner/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  }
+]
